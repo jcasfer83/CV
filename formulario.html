@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+   <html>
+    <head>
+       <meta charset="utf-8"/>
+       <title>Form</title>
+	   <link rel="stylesheet" href="estilosDos.css">
+	   <link rel="icon" href="favicon.ico">
+	</head>
+    <body>
+        <h1 align="center">Contact with Joaquin</h1>
+		
+		<h3>Contact information:</h3>
+		<p align="center">+34606909039</p>
+		<p align="center">jcfernandez83@hotmail.com</p>
+		
+		<br>
+		
+		<br>
+		
+        <form action="mailto:jcfernandez83@hotmail.com" method="post" enctype="text/plain">
+		
+			<table>
+				<tr>
+					<td><label color="#007580">Name:</label></td>
+					<td><input type="text" name="nombre" size="25" maxlength="50"></td>
+				</tr>
+				<tr>
+					<td><label color="#007580">Surname:</label></td>
+					<td><input type="text" name="apellidos" size="35" maxlength="100"></td>
+				</tr>
+				<tr>
+					<td><label color="#007580">Email:</label></td>
+					<td><input type="email" name="email" value="@" size="40" maxlength="100"></td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<table width="70%">
+				<tr>
+					<td><b>Select the services you would be interested in:</b></td>
+					<td><b>How did you find me? </b></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" id="web" name="web"/> <b>Web Development</b> </td>
+					<td><input type="checkbox" id="instagram" name="instragram"/> <b>Instagram. </b> </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" id="java" name="java"/> <b>Java Development</b> </td>
+					<td><input type="checkbox" id="google" name="google"/> <b>Google. </b> </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" id="front" name="front"/> <b>Front-End services</b> </td>
+					<td><input type="checkbox" id="boca" name="Boca"/> <b>By word of mouth. </b> </td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" id="back" name="back"/> <b>Back-End services</b> </td>
+					<td><input type="checkbox" id="otros" name="otros"/> <b>Others. </b> </td>
+				</tr>
+			
+			
+			</table>
+			<hr>
+            
+            <p align="center">Write a message:</p>
+            
+            <textarea name="comentarios" rows="10" cols="50">Write here ...</textarea>
+            
+			<br>
+			<br>
+			<table align="center" width="50%">
+				<tr>
+					<th class="button1"><input type="submit" value="SEND"></th>
+					<th class="button2"><input type="reset" value="DELETE"></th>
+				</tr>
+			</table>
+            
+            
+		</form>
+
+    </body>
+</html>
